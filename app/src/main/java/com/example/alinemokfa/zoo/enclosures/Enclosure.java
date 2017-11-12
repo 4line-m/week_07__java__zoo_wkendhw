@@ -28,4 +28,11 @@ public class Enclosure<T extends Animal> {
     public void removeAnimal(T animal) {
         this.enclosure.remove(animal);
     }
+
+    public boolean findAnimal(T animal) {
+        if(this.enclosure.contains(animal)) {
+            return true;
+        }
+        return false;
+    }
 }

@@ -52,4 +52,11 @@ public class EnclosureTest {
         assertEquals(0, jaguarEnclosure.animalCount());
     }
 
+    @Test
+    public void canFindAnimal() {
+        jaguarEnclosure.addAnimal(jaguar);
+        assertEquals(true, jaguarEnclosure.findAnimal(jaguar));
+    }
+
+
 }
