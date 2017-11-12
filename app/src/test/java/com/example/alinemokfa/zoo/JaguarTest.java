@@ -1,5 +1,7 @@
 package com.example.alinemokfa.zoo;
 
+import com.example.alinemokfa.zoo.animals.Jaguar;
+
 import org.junit.Before;
 import org.junit.Test;
 

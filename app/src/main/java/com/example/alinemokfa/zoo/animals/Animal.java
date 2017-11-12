@@ -1,4 +1,4 @@
-package com.example.alinemokfa.zoo;
+package com.example.alinemokfa.zoo.animals;
 
 /**
  * Created by alinemokfa on 12/11/2017.

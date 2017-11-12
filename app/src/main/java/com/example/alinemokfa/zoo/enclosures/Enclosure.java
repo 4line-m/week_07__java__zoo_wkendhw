@@ -1,7 +1,6 @@
 package com.example.alinemokfa.zoo.enclosures;
 
-import com.example.alinemokfa.zoo.Animal;
-import com.example.alinemokfa.zoo.Jaguar;
+import com.example.alinemokfa.zoo.animals.Animal;
 
 import java.util.ArrayList;
 
