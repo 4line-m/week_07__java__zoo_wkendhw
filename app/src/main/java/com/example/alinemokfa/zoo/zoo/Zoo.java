@@ -1,5 +1,7 @@
 package com.example.alinemokfa.zoo.zoo;
 
+import com.example.alinemokfa.zoo.animals.Animal;
+import com.example.alinemokfa.zoo.animals.Jaguar;
 import com.example.alinemokfa.zoo.enclosures.Enclosure;
 
 import java.util.ArrayList;
@@ -39,4 +41,17 @@ public class Zoo<V extends Enclosure>{
         }
         return total;
     }
+
+    public int getDollaBills() {
+        return this.dollaBills;
+    }
+
+//    public void sellAnimal(Animal animal) {
+//        for (Enclosure enclosure : enclosures){
+//            if(enclosure.findAnimal(animal)){
+//                enclosure.removeAnimal(animal);
+//                this.dollaBills += animal.getCashValue();
+//            }
+//        }
+//    }
 }

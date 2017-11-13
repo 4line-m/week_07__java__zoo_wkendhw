@@ -58,10 +58,18 @@ public class ZooTest {
         assertEquals(2, this.zoo.animalCount());
     }
 
+    @Test
+    public void canGetDollaBills() {
+        assertEquals(0, this.zoo.getDollaBills());
+    }
+
 //    @Test
 //    public void canSellAnimal() {
 //        this.zoo.addEnclosure(jaguarEnclosure);
 //        this.jaguarEnclosure.addAnimal(jaguar);
-//
+//        this.zoo.sellAnimal(jaguar);
+//        assertEquals(1, this.zoo.enclosureCount());
+//        assertEquals(1000, this.zoo.getDollaBills());
 //    }
+
 }
